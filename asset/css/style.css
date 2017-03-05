@@ -1,0 +1,136 @@
+/* 
+    Document   : style
+    Created on : Sep 18, 2016, 12:51:44 PM
+    Author     : HANDITO WIRA
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face{
+    font-family: firasans;
+    src: url('../fonts/FiraSans-Regular.otf');
+}
+html, body {
+	font-family: firasans;
+    height: 100%;
+	background: #6FA8DC;
+}
+.login-body{
+	background: url(../img/bg-login.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.login-row-1{
+	margin-top: 10%;
+	margin-bottom: -75px;
+	z-index: 2;
+	position: relative !important;
+}
+.login-row-2{
+	z-index: 1;
+	position: relative !important;
+}
+.login-row-1 > div{
+	margin: 0px auto;
+	border-radius: 50%;
+	width: 150px;
+    height: 150px;
+	background: url(../img/icon.png);
+}
+.login-row-2 > div{
+	background-color: #FFF;
+	height: 275px;
+	padding: 80px;
+}
+.login-row-2 > div button[type=submit]{
+	color: #FFF;
+	background: #085394;
+	float: right;
+}
+.login-bottom{
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10%;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #fff !important;
+    background-color: #074394;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #555;
+    background-color: #074394;
+}
+.admin-navbar{
+	background: #085394;
+}
+.admin-navbar .navbar-brand{
+	color: #000 !important;
+	font-size: 24px;
+}
+.admin-navbar ul li a{
+	color: #000 !important;
+	font-size: 16px;
+}
+.admin-navbar .btn-logout{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.admin-container{
+	margin-top: 50px;
+}
+.admin-sidebar{
+	background: #6FA8DC;
+	position: fixed;
+}
+.admin-content{
+	background: #FFF;
+	margin-left: 16.7%;
+}
+.admin-sidebar{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.admin-sidebar ul, .admin-sidebar ul li{
+	width: 100%;
+}
+.admin-sidebar .nav li a{
+	color: #000;
+}
+.admin-sidebar .nav li a:focus, .admin-sidebar .nav li a:hover {
+    text-decoration: none;
+    background-color: #6FA8DC;
+	color: #FFF;
+}
+.admin-sidebar > .nav > li > ul {
+	padding: 0;
+}
+.admin-sidebar > .nav > li > ul > li {
+	list-style: none;
+}
+.admin-sidebar > .nav > li > ul > .buka {
+	background: #085394;
+}
+.admin-sidebar > .nav > li > ul > li > a{
+	padding: 10px 15px 10px 35px;
+	display: block;
+	text-decoration: none;
+}
+.admin-sidebar > .nav > li > ul > li > a:hover{
+	text-decoration: none;
+}
+.admin-content-logo{
+	background: url("../img/bpjs.png") no-repeat center;
+	width: 100%;
+	height: 500px;
+}
+.collapsed  > li > .right-here, .collapsed  > li > .right-here:hover{
+	background: #2E539E !important;
+	color: #FFF !important;
+}
+.page-header{
+	text-align: center;
+}
